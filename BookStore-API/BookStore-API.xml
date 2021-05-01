@@ -69,6 +69,225 @@
             </summary>
             <param name="id"></param>
         </member>
+        <member name="T:BookStore_API.Data.ApplicationDbContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.ApplicationDbContext.Authors">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.ApplicationDbContext.Books">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Data.ApplicationDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{BookStore_API.Data.ApplicationDbContext})">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="T:BookStore_API.Data.Author">
+            <summary>
+            Scaffold-DbContext "Server=.;Database=BookStore;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Author.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Author.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Author.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Author.Bio">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Author.Books">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BookStore_API.Data.Book">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Year">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Isbn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Summary">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Price">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.AuthorId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.Book.Author">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BookStore_API.Data.DTO.AuthorDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.AuthorDTO.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.AuthorDTO.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.AuthorDTO.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.AuthorDTO.Bio">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.AuthorDTO.Books">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BookStore_API.Data.DTO.BookDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BookStore_API.Data.DTO.BookDTO.Book">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Year">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Isbn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Summary">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Price">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.AuthorId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BookStore_API.Data.DTO.BookDTO.Book.Author">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BookStore_API.Data.Migrations.CreateIdentitySchema">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Data.Migrations.CreateIdentitySchema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:BookStore_API.Data.Migrations.CreateIdentitySchema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:BookStore_API.Data.Migrations.CreateIdentitySchema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:BookStore_API.Mappings.Maps">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Mappings.Maps.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:BookStore_API.Program">
             <summary>
             
