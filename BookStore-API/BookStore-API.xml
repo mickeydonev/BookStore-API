@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStore-API</name>
+    </assembly>
+    <members>
+        <member name="T:BookStore_API.Contracts.ILoggerService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Contracts.ILoggerService.LogInfo(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:BookStore_API.Contracts.ILoggerService.LogWarn(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:BookStore_API.Contracts.ILoggerService.LogDebug(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:BookStore_API.Contracts.ILoggerService.LogError(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:BookStore_API.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.#ctor(BookStore_API.Contracts.ILoggerService)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.Get">
+            <summary>
+            This is a GET controller with no parameter
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.Post(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.Put(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.HomeController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:BookStore_API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:BookStore_API.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BookStore_API.Services.LoggerService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogDebug(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogError(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogInfo(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:BookStore_API.Services.LoggerService.LogWarn(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:BookStore_API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:BookStore_API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:BookStore_API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

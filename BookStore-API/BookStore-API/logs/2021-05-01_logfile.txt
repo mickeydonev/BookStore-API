@@ -1,0 +1,2 @@
+2021-05-01 12:42:19.3357 INFO Default Get method was accessed!
+2021-05-01 12:44:47.2219 ERROR this is an Error!
